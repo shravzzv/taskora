@@ -17,14 +17,11 @@ export default function Navbar() {
 
         <div className='flex items-center gap-5'>
           <li>
-            <Link href='/login'>Log in</Link>
-          </li>
-          <li>
             <Link
-              href='/signup'
+              href='/dashboard'
               className='inline-block border-2 border-black-50 rounded-lg p-2 px-4'
             >
-              Sign up
+              Dashboard
             </Link>
           </li>
         </div>
