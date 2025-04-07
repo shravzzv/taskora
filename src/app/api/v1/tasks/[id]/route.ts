@@ -32,10 +32,10 @@ export async function PUT(
       { status: 404 }
     )
   }
-  const { title, date } = await req.json()
+  const body = await req.json()
   const updatedTask = await prisma.task.update({
     where: { id },
-    data: { title, date },
+    data: { ...body },
   })
   return NextResponse.json({ updatedTask })
 }
