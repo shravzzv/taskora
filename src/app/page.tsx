@@ -18,14 +18,14 @@ export default function LandingPage() {
         <div className='flex items-center justify-center gap-5 my-5 mb-0'>
           <Link
             href='/dashboard'
-            className='px-6 py-2 rounded-md text-white font-medium bg-gradient-to-r from-pink-500 to-purple-500 hover:brightness-110 transition fw-bold'
+            className='px-6 py-2 rounded-md text-white font-medium bg-gradient-to-r from-pink-500 to-purple-500 hover:brightness-110 transition fw-bold z-1'
           >
             Get Started
           </Link>
 
           <Link
             href='#features'
-            className='px-6 py-2 rounded-md bg-gray-700 text-white font-medium hover:bg-gray-600 transition'
+            className='px-6 py-2 rounded-md bg-gray-700 text-white font-medium hover:bg-gray-600 transition z-1'
           >
             Learn More
           </Link>
